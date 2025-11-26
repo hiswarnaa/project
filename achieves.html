@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Achieves</title>
+</head>
+
+<body>
+    <h1 style="text-align:center;margin-top:40px">Achieves</h1>
+    <p style="max-width:800px;margin:20px auto">Achievements or milestones.</p>
+    <p style="text-align:center"><a href="00f1ac56-88ae-484f-8f94-a7e7faa9d44c.html">Back to Home</a></p>
+</body>
+
+</html>
+
+
+<style>
+    body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        background: #fafafa;
+        padding: 20px;
+    }
+
+    .book {
+        display: flex;
+        align-items: center;
+        background: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .bookimg {
+        width: 13px;
+        height: 10px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-right: 20px;
+    }
+
+    .bookinfo h2 {
+        margin: 0;
+        font-size: 22px;
+        color: #222;
+    }
+
+    .readmore {
+        margin-top: 10px;
+        background: #4CAF50;
+        color: white;
+        padding: 8px 14px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .description {
+        display: none;
+        margin-top: 12px;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    .page-container {
+        display: flex;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+
+    .main-content {
+        width: 70%;
+    }
+
+
+    .sidebar {
+        width: 30%;
+        position: sticky;
+        top: 20px;
+    }
+
+
+    @media (max-width: 768px) {
+        .page-container {
+            display: block;
+        }
+
+        .main-content,
+        .sidebar {
+            width: 100%;
+            position: static;
+        }
+    }
+</style>
+
+<script>
+    function toggleDescription(id) {
+        let desc = document.getElementById(id);
+
+        if (desc.style.display === "none") {
+            desc.style.display = "block";
+        } else {
+            desc.style.display = "none";
+        }
+    }
+</script>
+
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-bottom:30px; color:#333;">
+        Reading Achieves
+    </h1>
+
+    <!-- 1 Book -->
+    <div class="book">
+        <img src="https://i.pinimg.com/1200x/7a/3b/76/7a3b76f18169db5e9180c0b745050223.jpg" alt="g" height="190px"
+            width="145px">
+        <div class="bookinfo">
+            <h2>The Alchemist</h2>
+            <button class="readmore" onclick="toggleDescription('b1')">Read More</button>
+
+            <p class="description" id="b1">
+                A magical story about following your dreams and listening to your heart. This book deeply shaped
+                the way I look at destiny, courage, and self-belief.
+            </p>
+        </div>
+    </div>
+
+    <!-- 2 Book -->
+    <div class="book">
+        <img src="https://i.pinimg.com/736x/20/52/42/205242eaf280dca06779b49feb61f173.jpg" alt="a" height="190px"
+            width="145px">
+        <div class="bookinfo">
+            <h2>All This Time</h2>
+            <button class="readmore" onclick="toggleDescription('b2')">Read More</button>
+
+            <p class="description" id="b2">
+                A heartbreaking yet healing love story that teaches how unpredictable life can be and how love
+                sometimes finds you when you don’t expect it.
+            </p>
+        </div>
+    </div>
+
+    <!-- 3 Book -->
+    <div class="book">
+        <img src="https://i.pinimg.com/736x/bd/66/86/bd66861540b4721a5c5e7840a62f4425.jpg" alt="b" height="190px"
+            width="145px">
+        <div class="bookinfo">
+            <h2>Terms and Conditions</h2>
+            <button class="readmore" onclick="toggleDescription('b3')">Read More</button>
+
+            <p class="description" id="b3">
+                A funny, charming, enemies-to-lovers office romance that made me fall in love with the chemistry
+                and banter between the characters.
+            </p>
+        </div>
+    </div>
+
+    <!-- 4 Book -->
+    <div class="book">
+        <img src="https://i.pinimg.com/1200x/6c/f4/28/6cf428acd2c0cace5573b4e63187aa3b.jpg" alt="c" height="190px"
+            width="145px">
+        <div class="bookinfo">
+            <h2>The Fine Print</h2>
+            <button class="readmore" onclick="toggleDescription('b4')">Read More</button>
+
+            <p class="description" id="b4">
+                A beautiful story that mixes romance and nostalgia with real-life emotions, reminding readers of
+                second chances and rediscovery.
+            </p>
+        </div>
+    </div>
+
+    <!-- 5 Book -->
+    <div class="book">
+        <img src="https://i.pinimg.com/736x/48/24/16/4824167e6495f00dca15b47e3c76200b.jpg" alt="d" height="190px"
+            width="145px">
+        <div class="bookinfo">
+            <h2>Verity</h2>
+            <button class="readmore" onclick="toggleDescription('b5')">Read More</button>
+
+            <p class="description" id="b5">
+                A dark, twisty psychological thriller that keeps you thinking long after the last page.
+                Truly mind-blowing.
+            </p>
+        </div>
+    </div>
+
+    <!-- 6 Book -->
+    <div class="book">
+        <img src="https://i.pinimg.com/736x/2b/67/60/2b6760353435b8ef1a3437385a381039.jpg" alt="e" height="190px"
+            width="145px">
+        <div class="bookinfo">
+            <h2>It Ends With Us</h2>
+            <button class="readmore" onclick="toggleDescription('b6')">Read More</button>
+
+            <p class="description" id="b6">
+                A powerful book that explores love, strength, and breaking toxic cycles. Emotional and unforgettable.
+            </p>
+        </div>
+    </div>
+
+    <!-- 7 Book -->
+    <div class="book">
+        <img src="https://i.pinimg.com/736x/e7/ed/f4/e7edf4e368f3c8f6fce304843fe8c02b.jpg" alt="f" height="190px"
+            width="145px">
+        <div class="bookinfo">
+            <h2>follow me to ground</h2>
+            <button class="readmore" onclick="toggleDescription('b7')">Read More</button>
+
+            <p class="description" id="b7">
+                A light, warm coming-of-age story about rediscovering life, dreams, and yourself — one of my most
+                comforting reads.
+            </p>
+        </div>
+    </div>
+    <aside class="sidebar">
+        <div class="side-top">
+            <div class="side-title">LIVING FOR BOOKS</div>
+            <img src="https://i.pinimg.com/736x/ee/83/3a/ee833a053a9e5e85c176e845d3fec1ac.jpg" class="side-img" />
+        </div>
+
+        <div class="subscribe-section">
+            <h4>Subscribe</h4>
+            <form onsubmit="event.preventDefault();alert('Thanks!');">
+                <input type="email" placeholder="your@email.com" required>
+                <button type="submit">Join</button>
+            </form>
+        </div>
+    </aside>
+
+
+</body>
+
+</html>

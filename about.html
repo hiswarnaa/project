@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>About</title>
+</head>
+
+<body>
+    <h1 style="text-align:center;margin-top:40px">About</h1>
+    <p style="max-width:800px;margin:20px auto">Short about text about your blog or you.</p>
+    <p style="text-align:center"><a href="00f1ac56-88ae-484f-8f94-a7e7faa9d44c.html">Back to Home</a></p>
+</body>
+
+</html>
+
+<style>
+    * {
+        box-sizing: border-box
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #ffffff;
+        color: #222;
+    }
+
+    .wrap {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 25px;
+    }
+
+
+    header {
+        text-align: center;
+        padding: 30px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 38px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+
+    .about-card {
+        margin-top: 35px;
+        border: 1px solid #eee;
+        padding: 25px;
+        border-radius: 5px;
+        background: #fafafa;
+    }
+
+    .about1 h2 {
+        margin-top: 0;
+        font-size: 28px;
+    }
+
+    .about1 p {
+        line-height: 1.7;
+        color: #c17d7d;
+        font-size: 16px;
+    }
+
+    .types {
+        margin-top: 35px;
+        padding: 25px;
+        border: 1px solid #6d5555;
+        background: #fdfdfd;
+        border-radius: 5px;
+    }
+
+    .types h2 {
+        margin: 0 0 15px 0;
+        font-size: 26px;
+    }
+
+    .types p {
+        line-height: 1.7;
+        color: #000000;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .type-box {
+        background: #ffecec;
+        border: 1px solid #f0f0f0;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .type-box h3 {
+        margin: 0 0 8px 0;
+        font-size: 20px;
+    }
+
+
+    .readmore {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 15px;
+        border: 1px solid #222;
+        background: transparent;
+        color: #222;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    #moreText {
+        display: none;
+        margin-top: 15px;
+        line-height: 1.7;
+        color: #444;
+    }
+</style>
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <header>
+            <h1>About Readers</h1>
+        </header>
+
+
+        <div class="about1">
+            <h2>Hello, Reader!</h2>
+            <p>
+                Welcome to my cozy little corner of the internet.
+                I created this book blog because stories have always felt like home to me.
+                I love sharing recommendations, reviews, and small thoughts that books leave behind.
+            </p>
+            <p>
+                Whether it’s romance, fantasy, thrillers, or quiet literary fiction—
+                there’s a book for every mood and a reader behind every story.
+            </p>
+
+
+            <button class="readmore" onclick="toggleMore()">Read More</button>
+
+            <div id="moreText">
+                <p>
+                    I started reading when I was young, and since then, books have shaped my personality,
+                    my dreams, and even the way I observe people.
+                    I believe reading doesn’t just teach you—it transforms you slowly, page by page.
+                </p>
+                <p>
+                    This blog is simply a reflection of that love.
+                    If you're a fellow booklover, you’re already family here.
+                </p>
+            </div>
+        </div>
+
+        <!-- TYPES OF READERS -->
+        <div class="types">
+            <h2>Types of Readers</h2>
+
+            <div class="type-box">
+                <h3> The Emotional Reader</h3>
+                <p>Cries easily, laughs loudly, gets attached to characters,
+                    and remembers lines forever.</p>
+            </div>
+
+            <div class="type-box">
+                <h3> The Aesthetic Reader</h3>
+                <p>Collects pretty books, loves annotations, tabs, and takes cute book photos.</p>
+            </div>
+
+            <div class="type-box">
+                <h3>The Deep Reader</h3>
+                <p>Reads slowly, underlines quotes, finds hidden meanings,
+                    and loves philosophical writing.</p>
+            </div>
+
+            <div class="type-box">
+                <h3>The Fast Reader</h3>
+                <p>Finishes a 400-page book in one sitting and posts reviews immediately.</p>
+            </div>
+
+            <div class="type-box">
+                <h3>The Night Owl Reader</h3>
+                <p>Reads only at night, loses sleep, survives on tea/coffee,
+                    and says “one last chapter” 13 times.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        function toggleMore() {
+            var moreText = document.getElementById("moreText");
+            if (moreText.style.display === "none") {
+                moreText.style.display = "block";
+            } else {
+                moreText.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
